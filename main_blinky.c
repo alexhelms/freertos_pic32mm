@@ -8,7 +8,7 @@
 
 /* The period of the blinky software timer.  The period is specified in ms and
 converted to ticks using the portTICK_PERIOD_MS constant. */
-#define mainBLINKY_TIMER_PERIOD             ( 10 / portTICK_PERIOD_MS )
+#define mainBLINKY_TIMER_PERIOD             ( 500 / portTICK_PERIOD_MS )
 
 /*
  * The callback function for the blinky software timer, as described at the top
